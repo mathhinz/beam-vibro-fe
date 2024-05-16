@@ -1,0 +1,128 @@
+[
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_card.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_card.cxx",
+  "output": "src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_elem.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_elem.cxx",
+  "output": "src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_file.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_file.cxx",
+  "output": "src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_grid.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_grid.cxx",
+  "output": "src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_mat.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_mat.cxx",
+  "output": "src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_part.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_part.cxx",
+  "output": "src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_util.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_util.cxx",
+  "output": "src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-objects/CMakeFiles/fe-objects.dir/isotropic_material.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/isotropic_material.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/isotropic_material.cxx",
+  "output": "src/fe-objects/CMakeFiles/fe-objects.dir/isotropic_material.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-objects/CMakeFiles/fe-objects.dir/node.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/node.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/node.cxx",
+  "output": "src/fe-objects/CMakeFiles/fe-objects.dir/node.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-objects/CMakeFiles/fe-objects.dir/bar.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/bar.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/bar.cxx",
+  "output": "src/fe-objects/CMakeFiles/fe-objects.dir/bar.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-objects/CMakeFiles/fe-objects.dir/line2.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/line2.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/line2.cxx",
+  "output": "src/fe-objects/CMakeFiles/fe-objects.dir/line2.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-model/CMakeFiles/fe-model.dir/element.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/element.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/element.cxx",
+  "output": "src/fe-model/CMakeFiles/fe-model.dir/element.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-model/CMakeFiles/fe-model.dir/material.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/material.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/material.cxx",
+  "output": "src/fe-model/CMakeFiles/fe-model.dir/material.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-model/CMakeFiles/fe-model.dir/model.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/model.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/model.cxx",
+  "output": "src/fe-model/CMakeFiles/fe-model.dir/model.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/fe-model/CMakeFiles/fe-model.dir/part.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/part.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/part.cxx",
+  "output": "src/fe-model/CMakeFiles/fe-model.dir/part.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-obj/CMakeFiles/nastran-obj.dir/cbar.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/cbar.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/cbar.cxx",
+  "output": "src/nastran-obj/CMakeFiles/nastran-obj.dir/cbar.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-obj/CMakeFiles/nastran-obj.dir/grid.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/grid.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/grid.cxx",
+  "output": "src/nastran-obj/CMakeFiles/nastran-obj.dir/grid.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-obj/CMakeFiles/nastran-obj.dir/mat1.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/mat1.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/mat1.cxx",
+  "output": "src/nastran-obj/CMakeFiles/nastran-obj.dir/mat1.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o src/nastran-obj/CMakeFiles/nastran-obj.dir/pbar.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/pbar.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/pbar.cxx",
+  "output": "src/nastran-obj/CMakeFiles/nastran-obj.dir/pbar.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o app/CMakeFiles/fe-solver.dir/main.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/app/main.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/app/main.cxx",
+  "output": "app/CMakeFiles/fe-solver.dir/main.cxx.o"
+},
+{
+  "directory": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -isystem /Users/mathiashinz/.conan2/p/b/catch4129cbc534ed7/p/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o tests/CMakeFiles/UnitTestVibroFE.dir/test_read_cards.cxx.o -c /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/tests/test_read_cards.cxx",
+  "file": "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/tests/test_read_cards.cxx",
+  "output": "tests/CMakeFiles/UnitTestVibroFE.dir/test_read_cards.cxx.o"
+}
+]
