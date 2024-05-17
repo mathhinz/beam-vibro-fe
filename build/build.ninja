@@ -613,164 +613,6 @@ build src/install/strip: phony src/CMakeFiles/install/strip.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target nastran-io
-
-
-#############################################
-# Order-only phony target for nastran-io
-
-build cmake_object_order_depends_target_nastran-io: phony || cmake_object_order_depends_target_nastran-obj
-
-build src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_card.cxx || cmake_object_order_depends_target_nastran-io
-  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-
-build src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_elem.cxx || cmake_object_order_depends_target_nastran-io
-  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-
-build src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_file.cxx || cmake_object_order_depends_target_nastran-io
-  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-
-build src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_grid.cxx || cmake_object_order_depends_target_nastran-io
-  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-
-build src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_mat.cxx || cmake_object_order_depends_target_nastran-io
-  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-
-build src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_part.cxx || cmake_object_order_depends_target_nastran-io
-  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-
-build src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_util.cxx || cmake_object_order_depends_target_nastran-io
-  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target nastran-io
-
-
-#############################################
-# Link the static library src/nastran-io/libnastran-io.a
-
-build src/nastran-io/libnastran-io.a: CXX_STATIC_LIBRARY_LINKER__nastran-io_Debug src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o || src/nastran-obj/libnastran-obj.a
-  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = src/nastran-io/libnastran-io.a
-  TARGET_PDB = nastran-io.a.dbg
-
-
-#############################################
-# Utility command for test
-
-build src/nastran-io/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/ctest --force-new-ctest-process
-  DESC = Running tests...
-  pool = console
-  restat = 1
-
-build src/nastran-io/test: phony src/nastran-io/CMakeFiles/test.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build src/nastran-io/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/ccmake -S/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe -B/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build
-  DESC = Running CMake cache editor...
-  pool = console
-  restat = 1
-
-build src/nastran-io/edit_cache: phony src/nastran-io/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build src/nastran-io/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake --regenerate-during-build -S/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe -B/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build src/nastran-io/rebuild_cache: phony src/nastran-io/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build src/nastran-io/list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build src/nastran-io/CMakeFiles/install.util: CUSTOM_COMMAND src/nastran-io/all
-  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -P cmake_install.cmake
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build src/nastran-io/install: phony src/nastran-io/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/local
-
-build src/nastran-io/CMakeFiles/install/local.util: CUSTOM_COMMAND src/nastran-io/all
-  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build src/nastran-io/install/local: phony src/nastran-io/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install/strip
-
-build src/nastran-io/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/nastran-io/all
-  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build src/nastran-io/install/strip: phony src/nastran-io/CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
 # Object build statements for STATIC_LIBRARY target fe-objects
 
 
@@ -1045,6 +887,136 @@ build src/fe-model/install/strip: phony src/fe-model/CMakeFiles/install/strip.ut
 # =============================================================================
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target fe-theory
+
+
+#############################################
+# Order-only phony target for fe-theory
+
+build cmake_object_order_depends_target_fe-theory: phony || cmake_object_order_depends_target_fe-model cmake_object_order_depends_target_fe-objects cmake_object_order_depends_target_nastran-io cmake_object_order_depends_target_nastran-obj
+
+build src/fe-theory/CMakeFiles/fe-theory.dir/beamAssemble.cxx.o: CXX_COMPILER__fe-theory_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/beamAssemble.cxx || cmake_object_order_depends_target_fe-theory
+  DEP_FILE = src/fe-theory/CMakeFiles/fe-theory.dir/beamAssemble.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -isystem /Users/mathiashinz/.conan2/p/eigen3d88c0279cc26/p/include/eigen3 -isystem /Users/mathiashinz/.conan2/p/spect220d06ce9e4fa/p/include
+  OBJECT_DIR = src/fe-theory/CMakeFiles/fe-theory.dir
+  OBJECT_FILE_DIR = src/fe-theory/CMakeFiles/fe-theory.dir
+
+build src/fe-theory/CMakeFiles/fe-theory.dir/beamFlex.cxx.o: CXX_COMPILER__fe-theory_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/beamFlex.cxx || cmake_object_order_depends_target_fe-theory
+  DEP_FILE = src/fe-theory/CMakeFiles/fe-theory.dir/beamFlex.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -isystem /Users/mathiashinz/.conan2/p/eigen3d88c0279cc26/p/include/eigen3 -isystem /Users/mathiashinz/.conan2/p/spect220d06ce9e4fa/p/include
+  OBJECT_DIR = src/fe-theory/CMakeFiles/fe-theory.dir
+  OBJECT_FILE_DIR = src/fe-theory/CMakeFiles/fe-theory.dir
+
+build src/fe-theory/CMakeFiles/fe-theory.dir/eulerBernoulli.cxx.o: CXX_COMPILER__fe-theory_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/eulerBernoulli.cxx || cmake_object_order_depends_target_fe-theory
+  DEP_FILE = src/fe-theory/CMakeFiles/fe-theory.dir/eulerBernoulli.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -isystem /Users/mathiashinz/.conan2/p/eigen3d88c0279cc26/p/include/eigen3 -isystem /Users/mathiashinz/.conan2/p/spect220d06ce9e4fa/p/include
+  OBJECT_DIR = src/fe-theory/CMakeFiles/fe-theory.dir
+  OBJECT_FILE_DIR = src/fe-theory/CMakeFiles/fe-theory.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target fe-theory
+
+
+#############################################
+# Link the static library src/fe-theory/libfe-theory.a
+
+build src/fe-theory/libfe-theory.a: CXX_STATIC_LIBRARY_LINKER__fe-theory_Debug src/fe-theory/CMakeFiles/fe-theory.dir/beamAssemble.cxx.o src/fe-theory/CMakeFiles/fe-theory.dir/beamFlex.cxx.o src/fe-theory/CMakeFiles/fe-theory.dir/eulerBernoulli.cxx.o || src/fe-model/libfe-model.a src/fe-objects/libfe-objects.a src/nastran-io/libnastran-io.a src/nastran-obj/libnastran-obj.a
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = src/fe-theory/CMakeFiles/fe-theory.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/fe-theory/libfe-theory.a
+  TARGET_PDB = fe-theory.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build src/fe-theory/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory && /opt/homebrew/Cellar/cmake/3.26.4/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build src/fe-theory/test: phony src/fe-theory/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/fe-theory/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory && /opt/homebrew/Cellar/cmake/3.26.4/bin/ccmake -S/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe -B/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build src/fe-theory/edit_cache: phony src/fe-theory/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/fe-theory/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake --regenerate-during-build -S/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe -B/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/fe-theory/rebuild_cache: phony src/fe-theory/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src/fe-theory/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/fe-theory/CMakeFiles/install.util: CUSTOM_COMMAND src/fe-theory/all
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/fe-theory/install: phony src/fe-theory/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/fe-theory/CMakeFiles/install/local.util: CUSTOM_COMMAND src/fe-theory/all
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/fe-theory/install/local: phony src/fe-theory/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/fe-theory/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/fe-theory/all
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/fe-theory/install/strip: phony src/fe-theory/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for STATIC_LIBRARY target nastran-obj
 
 
@@ -1178,6 +1150,164 @@ build src/nastran-obj/install/strip: phony src/nastran-obj/CMakeFiles/install/st
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target nastran-io
+
+
+#############################################
+# Order-only phony target for nastran-io
+
+build cmake_object_order_depends_target_nastran-io: phony || cmake_object_order_depends_target_nastran-obj
+
+build src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_card.cxx || cmake_object_order_depends_target_nastran-io
+  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+
+build src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_elem.cxx || cmake_object_order_depends_target_nastran-io
+  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+
+build src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_file.cxx || cmake_object_order_depends_target_nastran-io
+  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+
+build src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_grid.cxx || cmake_object_order_depends_target_nastran-io
+  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+
+build src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_mat.cxx || cmake_object_order_depends_target_nastran-io
+  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+
+build src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_part.cxx || cmake_object_order_depends_target_nastran-io
+  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+
+build src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o: CXX_COMPILER__nastran-io_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/read_util.cxx || cmake_object_order_depends_target_nastran-io
+  DEP_FILE = src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  OBJECT_FILE_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target nastran-io
+
+
+#############################################
+# Link the static library src/nastran-io/libnastran-io.a
+
+build src/nastran-io/libnastran-io.a: CXX_STATIC_LIBRARY_LINKER__nastran-io_Debug src/nastran-io/CMakeFiles/nastran-io.dir/read_card.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_elem.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_file.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_grid.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_mat.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_part.cxx.o src/nastran-io/CMakeFiles/nastran-io.dir/read_util.cxx.o || src/nastran-obj/libnastran-obj.a
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = src/nastran-io/CMakeFiles/nastran-io.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/nastran-io/libnastran-io.a
+  TARGET_PDB = nastran-io.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build src/nastran-io/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build src/nastran-io/test: phony src/nastran-io/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/nastran-io/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/ccmake -S/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe -B/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build src/nastran-io/edit_cache: phony src/nastran-io/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/nastran-io/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake --regenerate-during-build -S/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe -B/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/nastran-io/rebuild_cache: phony src/nastran-io/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src/nastran-io/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/nastran-io/CMakeFiles/install.util: CUSTOM_COMMAND src/nastran-io/all
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/nastran-io/install: phony src/nastran-io/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/nastran-io/CMakeFiles/install/local.util: CUSTOM_COMMAND src/nastran-io/all
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/nastran-io/install/local: phony src/nastran-io/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/nastran-io/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/nastran-io/all
+  COMMAND = cd /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/nastran-io/install/strip: phony src/nastran-io/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/CMakeLists.txt
 # =============================================================================
 
@@ -1188,12 +1318,12 @@ build src/nastran-obj/install/strip: phony src/nastran-obj/CMakeFiles/install/st
 #############################################
 # Order-only phony target for fe-solver
 
-build cmake_object_order_depends_target_fe-solver: phony || cmake_object_order_depends_target_fe-model cmake_object_order_depends_target_fe-objects cmake_object_order_depends_target_nastran-io cmake_object_order_depends_target_nastran-obj
+build cmake_object_order_depends_target_fe-solver: phony || cmake_object_order_depends_target_fe-model cmake_object_order_depends_target_fe-objects cmake_object_order_depends_target_fe-theory cmake_object_order_depends_target_nastran-io cmake_object_order_depends_target_nastran-obj
 
 build app/CMakeFiles/fe-solver.dir/main.cxx.o: CXX_COMPILER__fe-solver_unscanned_Debug /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/app/main.cxx || cmake_object_order_depends_target_fe-solver
   DEP_FILE = app/CMakeFiles/fe-solver.dir/main.cxx.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/.
+  INCLUDES = -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/configured_files/include -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/. -I/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/. -isystem /Users/mathiashinz/.conan2/p/eigen3d88c0279cc26/p/include/eigen3 -isystem /Users/mathiashinz/.conan2/p/spect220d06ce9e4fa/p/include
   OBJECT_DIR = app/CMakeFiles/fe-solver.dir
   OBJECT_FILE_DIR = app/CMakeFiles/fe-solver.dir
 
@@ -1205,9 +1335,9 @@ build app/CMakeFiles/fe-solver.dir/main.cxx.o: CXX_COMPILER__fe-solver_unscanned
 #############################################
 # Link the executable app/fe-solver
 
-build app/fe-solver: CXX_EXECUTABLE_LINKER__fe-solver_Debug app/CMakeFiles/fe-solver.dir/main.cxx.o | src/fe-model/libfe-model.a src/fe-objects/libfe-objects.a src/nastran-io/libnastran-io.a src/nastran-obj/libnastran-obj.a || src/fe-model/libfe-model.a src/fe-objects/libfe-objects.a src/nastran-io/libnastran-io.a src/nastran-obj/libnastran-obj.a
+build app/fe-solver: CXX_EXECUTABLE_LINKER__fe-solver_Debug app/CMakeFiles/fe-solver.dir/main.cxx.o | src/fe-theory/libfe-theory.a src/fe-model/libfe-model.a src/fe-objects/libfe-objects.a src/nastran-io/libnastran-io.a src/nastran-obj/libnastran-obj.a || src/fe-model/libfe-model.a src/fe-objects/libfe-objects.a src/fe-theory/libfe-theory.a src/nastran-io/libnastran-io.a src/nastran-obj/libnastran-obj.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  LINK_LIBRARIES = src/fe-model/libfe-model.a  src/fe-objects/libfe-objects.a  src/nastran-io/libnastran-io.a  src/nastran-obj/libnastran-obj.a
+  LINK_LIBRARIES = src/fe-theory/libfe-theory.a  src/fe-model/libfe-model.a  src/fe-objects/libfe-objects.a  src/nastran-io/libnastran-io.a  src/nastran-obj/libnastran-obj.a
   OBJECT_DIR = app/CMakeFiles/fe-solver.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1421,9 +1551,13 @@ build fe-objects: phony src/fe-objects/libfe-objects.a
 
 build fe-solver: phony app/fe-solver
 
+build fe-theory: phony src/fe-theory/libfe-theory.a
+
 build libfe-model.a: phony src/fe-model/libfe-model.a
 
 build libfe-objects.a: phony src/fe-objects/libfe-objects.a
+
+build libfe-theory.a: phony src/fe-theory/libfe-theory.a
 
 build libnastran-io.a: phony src/nastran-io/libnastran-io.a
 
@@ -1455,7 +1589,7 @@ build app/all: phony app/fe-solver
 #############################################
 # Folder: /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src
 
-build src/all: phony src/nastran-io/all src/fe-objects/all src/fe-model/all src/nastran-obj/all
+build src/all: phony src/fe-objects/all src/fe-model/all src/fe-theory/all src/nastran-obj/all src/nastran-io/all
 
 # =============================================================================
 
@@ -1470,6 +1604,13 @@ build src/fe-model/all: phony src/fe-model/libfe-model.a
 # Folder: /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-objects
 
 build src/fe-objects/all: phony src/fe-objects/libfe-objects.a
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory
+
+build src/fe-theory/all: phony src/fe-theory/libfe-theory.a
 
 # =============================================================================
 
@@ -1499,14 +1640,14 @@ build tests/all: phony tests/UnitTestVibroFE
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/mathiashinz/.conan2/p/b/catch4129cbc534ed7/p/lib/cmake/Catch2/Catch.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/app/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Tools.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Warnings.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/tests/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeFindDependencyMacro.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTest.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestTargets.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestUseLaunchers.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/DartConfiguration.tcl.in /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageMessage.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython/Support.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython3.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake Catch2-Target-debug.cmake Catch2-debug-armv8-data.cmake Catch2Config.cmake Catch2ConfigVersion.cmake Catch2Targets.cmake Eigen3-Target-debug.cmake Eigen3-debug-armv8-data.cmake Eigen3Config.cmake Eigen3ConfigVersion.cmake Eigen3Targets.cmake cmakedeps_macros.cmake conan_toolchain.cmake spectra-Target-debug.cmake spectra-config-version.cmake spectra-config.cmake spectra-debug-armv8-data.cmake spectraTargets.cmake
+build build.ninja: RERUN_CMAKE | /Users/mathiashinz/.conan2/p/b/catch4129cbc534ed7/p/lib/cmake/Catch2/Catch.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/app/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Tools.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Warnings.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/tests/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeFindDependencyMacro.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTest.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestTargets.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestUseLaunchers.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/DartConfiguration.tcl.in /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageMessage.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython/Support.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython3.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake Catch2-Target-debug.cmake Catch2-debug-armv8-data.cmake Catch2Config.cmake Catch2ConfigVersion.cmake Catch2Targets.cmake Eigen3-Target-debug.cmake Eigen3-debug-armv8-data.cmake Eigen3Config.cmake Eigen3ConfigVersion.cmake Eigen3Targets.cmake cmakedeps_macros.cmake conan_toolchain.cmake spectra-Target-debug.cmake spectra-config-version.cmake spectra-config.cmake spectra-debug-armv8-data.cmake spectraTargets.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/mathiashinz/.conan2/p/b/catch4129cbc534ed7/p/lib/cmake/Catch2/Catch.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/app/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Tools.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Warnings.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/tests/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeFindDependencyMacro.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTest.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestTargets.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestUseLaunchers.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/DartConfiguration.tcl.in /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageMessage.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython/Support.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython3.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake Catch2-Target-debug.cmake Catch2-debug-armv8-data.cmake Catch2Config.cmake Catch2ConfigVersion.cmake Catch2Targets.cmake Eigen3-Target-debug.cmake Eigen3-debug-armv8-data.cmake Eigen3Config.cmake Eigen3ConfigVersion.cmake Eigen3Targets.cmake cmakedeps_macros.cmake conan_toolchain.cmake spectra-Target-debug.cmake spectra-config-version.cmake spectra-config.cmake spectra-debug-armv8-data.cmake spectraTargets.cmake: phony
+build /Users/mathiashinz/.conan2/p/b/catch4129cbc534ed7/p/lib/cmake/Catch2/Catch.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/app/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Tools.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/cmake/Warnings.cmake /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-model/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-objects/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/fe-theory/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-io/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/src/nastran-obj/CMakeLists.txt /Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/tests/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeFindDependencyMacro.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTest.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestTargets.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CTestUseLaunchers.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/DartConfiguration.tcl.in /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPackageMessage.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython/Support.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindPython3.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake Catch2-Target-debug.cmake Catch2-debug-armv8-data.cmake Catch2Config.cmake Catch2ConfigVersion.cmake Catch2Targets.cmake Eigen3-Target-debug.cmake Eigen3-debug-armv8-data.cmake Eigen3Config.cmake Eigen3ConfigVersion.cmake Eigen3Targets.cmake cmakedeps_macros.cmake conan_toolchain.cmake spectra-Target-debug.cmake spectra-config-version.cmake spectra-config.cmake spectra-debug-armv8-data.cmake spectraTargets.cmake: phony
 
 
 #############################################

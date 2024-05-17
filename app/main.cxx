@@ -1,3 +1,4 @@
+#include "beamAssemble.hxx"
 #include "model.hxx"
 #include <chrono>
 #include <filesystem>
@@ -20,6 +21,16 @@ int main() {
 
   // Load model content
   auto const feSystem = FEModel::loadSystem(nasObjs);
+
+  // Create FE Matrices for Subsystems
+  for (auto const &ssPair : feSystem.subsystems_) {
+    auto const &subsystem = ssPair.second;
+
+    // Shell Routine
+    if (std::holds_alternative<FEObject::Bar>(subsystem.part_)) {
+      auto ssKandM = FETheory::getBarSubsystemKandM(feSystem, subsystem);
+    }
+  }
 
   // End the timer
   auto end = std::chrono::high_resolution_clock::now();

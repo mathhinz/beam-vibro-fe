@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-objects/cmake_install.cmake")
 endif()
 
@@ -54,6 +49,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/fe-theory/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-obj/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/src/nastran-io/cmake_install.cmake")
 endif()
 

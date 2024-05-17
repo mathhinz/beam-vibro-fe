@@ -22,25 +22,6 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__nastran-io_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /opt/homebrew/opt/llvm/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX static library.
-
-rule CXX_STATIC_LIBRARY_LINKER__nastran-io_Debug
-  command = $PRE_LINK && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /opt/homebrew/opt/llvm/bin/llvm-ranlib $TARGET_FILE && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
-  description = Linking CXX static library $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
 rule CXX_COMPILER__fe-objects_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -79,6 +60,25 @@ rule CXX_STATIC_LIBRARY_LINKER__fe-model_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__fe-theory_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /opt/homebrew/opt/llvm/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__fe-theory_Debug
+  command = $PRE_LINK && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /opt/homebrew/opt/llvm/bin/llvm-ranlib $TARGET_FILE && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__nastran-obj_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -90,6 +90,25 @@ rule CXX_COMPILER__nastran-obj_unscanned_Debug
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER__nastran-obj_Debug
+  command = $PRE_LINK && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /opt/homebrew/opt/llvm/bin/llvm-ranlib $TARGET_FILE && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__nastran-io_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /opt/homebrew/opt/llvm/bin/clang++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__nastran-io_Debug
   command = $PRE_LINK && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /opt/homebrew/opt/llvm/bin/llvm-ranlib $TARGET_FILE && /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT

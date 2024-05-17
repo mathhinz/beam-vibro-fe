@@ -28,6 +28,7 @@ set(NASTRANOBJ_LIB "nastran-obj")
 set(NASTRANIO_LIB "nastran-io")
 set(FEOBJECTS_LIB "fe-objects")
 set(FEMODEL_LIB "fe-model")
+set(FETHEORY_LIB "fe-theory")
 set(SOLVER_EXE "fe-solver")
 
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/)
@@ -65,6 +66,11 @@ install(
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib
     RUNTIME DESTINATION bin)
+
+install(
+    TARGETS ${FETHEORY_LIB}
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib)
 
 install(
     TARGETS ${FEMODEL_LIB}
