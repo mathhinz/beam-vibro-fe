@@ -1,10 +1,10 @@
-#include "beamAssemble.hxx"
+#include "barAssemble.hxx"
 
 #include <Eigen/Dense>
 #include <Eigen/Sparse>
 #include <Eigen/src/SparseCore/SparseMatrix.h>
 #include <bar.hxx>
-#include <beamFlex.hxx>
+#include <barMatrices.hxx>
 #include <isotropic_material.hxx>
 #include <line2.hxx>
 #include <model.hxx>
@@ -34,12 +34,12 @@ auto createTriplets(SMatrixXd const &matrix,
 
 } // namespace
 
-auto getBeamSubsystemKandM(FEModel::System const &system,
+auto getBarSubsystemKandM(FEModel::System const &system,
                           FEModel::Subsystem const &subsystem)
     -> std::pair<SMatrixXd, SMatrixXd> {
 
-  // Number of DOFs (assuming 2 per node)
-  auto const dofCount = static_cast<int>(subsystem.nodesId_.size() * 2);
+  // Number of DOFs (assuming 6 per node)
+  auto const dofCount = static_cast<int>(subsystem.nodesId_.size() * 6);
 
   // Return Matrices
   auto Kmat = SMatrixXd(dofCount, dofCount);
@@ -49,9 +49,9 @@ auto getBeamSubsystemKandM(FEModel::System const &system,
   auto ssTripletsK = std::vector<Triplet>{};
   auto ssTripletsM = std::vector<Triplet>{};
 
-  // Bar section properties
+  // Shell section properties
   auto const &bar = std::get<FEObject::Bar>(subsystem.part_);
-  auto const barParams = FETheory::getEuBeBarParameters(system, bar);
+  auto const barProps = FETheory::getBarSectionParameters(system, bar);
 
   // Create element local matrices
   for (auto const &elePair : subsystem.elements_) {
@@ -61,13 +61,13 @@ auto getBeamSubsystemKandM(FEModel::System const &system,
     if (std::holds_alternative<FEObject::Line2>(element)) {
       // Create Element Local Matrices
       auto const &line2 = std::get<FEObject::Line2>(element);
-      auto ebBar =
-          getBendingBeamLocalKandM(line2, system.nodes_, bar, barParams);
+      auto barMats = getBar3DLocalKandM(line2, system.nodes_, bar, barProps);
 
       // Rotate to Global Coordinates
-      // not necessary for eb beam example
-      auto const &rotatedLocalK = ebBar.localK;
-      auto const &rotatedLocalM = ebBar.localM;
+      auto const rotatedLocalK =
+          (barMats.transR.transpose() * barMats.localK * barMats.transR).eval();
+      auto const rotatedLocalM =
+          (barMats.transR.transpose() * barMats.localM * barMats.transR).eval();
 
       // Global Dofs Idx
       std::vector<uint64_t> nodesId(line2.nodesId_.begin(),
@@ -88,6 +88,9 @@ auto getBeamSubsystemKandM(FEModel::System const &system,
 
   Kmat.setFromTriplets(ssTripletsK.begin(), ssTripletsK.end());
   Mmat.setFromTriplets(ssTripletsM.begin(), ssTripletsM.end());
+
+  auto checkM = Matrix5454d(Mmat).eval();
+  auto checkK = Matrix5454d(Kmat).eval();
 
   return std::make_pair(Kmat, Mmat);
 };
