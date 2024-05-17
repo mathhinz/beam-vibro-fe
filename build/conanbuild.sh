@@ -1,0 +1,1 @@
+. "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/conanbuildenv-debug-armv8.sh"
