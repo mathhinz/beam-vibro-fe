@@ -89,9 +89,6 @@ auto getBarSubsystemKandM(FEModel::System const &system,
   Kmat.setFromTriplets(ssTripletsK.begin(), ssTripletsK.end());
   Mmat.setFromTriplets(ssTripletsM.begin(), ssTripletsM.end());
 
-  auto checkM = Matrix5454d(Mmat).eval();
-  auto checkK = Matrix5454d(Kmat).eval();
-
   return std::make_pair(Kmat, Mmat);
 };
 

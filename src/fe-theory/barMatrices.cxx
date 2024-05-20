@@ -62,10 +62,13 @@ auto getBarSectionParameters(FEModel::System const &system,
   }
 
   // Geometry
+  // Petyt Convention:
+  // X - along length
+  // Y and Z - cross-section
   properties.sectionA = bar.crossArea_;
-  properties.momentIx = bar.momentInertiaX;
-  properties.momentIy = bar.momentInertiaY;
-  properties.momentIz = bar.torsionalConst;
+  properties.momentIz = bar.momentInertia1;
+  properties.momentIy = bar.momentInertia2;
+  properties.momentIx = bar.torsionalConst;
   properties.torsionZ = bar.torsionalConst;
 
   return properties;

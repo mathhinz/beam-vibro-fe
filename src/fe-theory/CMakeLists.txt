@@ -3,17 +3,11 @@ set(FETHEORY_SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/barTheory.cxx"
     "${CMAKE_CURRENT_SOURCE_DIR}/barMatrices.cxx"
     "${CMAKE_CURRENT_SOURCE_DIR}/barAssemble.cxx"
-    "${CMAKE_CURRENT_SOURCE_DIR}/beamAssemble.cxx"
-    "${CMAKE_CURRENT_SOURCE_DIR}/beamFlex.cxx"
-    "${CMAKE_CURRENT_SOURCE_DIR}/eulerBernoulli.cxx"
 )
 set(FETHEORY_HEADERS
     "${CMAKE_CURRENT_SOURCE_DIR}/barTheory.hxx"
     "${CMAKE_CURRENT_SOURCE_DIR}/barMatrices.hxx"
     "${CMAKE_CURRENT_SOURCE_DIR}/barAssemble.hxx"
-    "${CMAKE_CURRENT_SOURCE_DIR}/beamAssemble.hxx"
-    "${CMAKE_CURRENT_SOURCE_DIR}/beamFlex.hxx"
-    "${CMAKE_CURRENT_SOURCE_DIR}/eulerBernoulli.hxx"
 )
 set(FETHEORY_INCLUDES "./" "${CMAKE_BINARY_DIR}/configured_files/include")
 
