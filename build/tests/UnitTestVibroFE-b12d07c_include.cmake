@@ -1,5 +1,0 @@
-if(EXISTS "/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/tests/UnitTestVibroFE-b12d07c_tests.cmake")
-  include("/Users/mathiashinz/Documents/mhz-projects/dev_env/beam-vibro-fe/build/tests/UnitTestVibroFE-b12d07c_tests.cmake")
-else()
-  add_test(UnitTestVibroFE_NOT_BUILT-b12d07c UnitTestVibroFE_NOT_BUILT-b12d07c)
-endif()
