@@ -27,7 +27,7 @@ Recommended Tools:
 
 ### Installing
 
-* git clone [link \[text\] link](git@github.com:mathhinz/vibro-fe.git)
+* git clone
 * cd beam-vibro-fe
 * mkdir build
 * conan install . --output-folder=build --build=missing --settings=build_type=Debug
