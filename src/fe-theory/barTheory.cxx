@@ -99,7 +99,7 @@ auto barCombinedStiffnessK(double_t a, double_t E, double_t v, double_t A,
   k12(5, 1) = -12.0 * a * rz2;
   k12(5, 5) = 8.0 * a2 * rz2;
 
-  k22(0, 0) = 4.0;
+  k22(0, 0) = 4.0 * a2;
   k22(1, 1) = 12.0 * rz2;
   k22(1, 5) = -12.0 * a * rz2;
   k22(2, 2) = 12.0 * ry2;
