@@ -4,5 +4,8 @@
 # Visual Studio Code
 /.vscode*
 
+# Cashe
+/.cache*
+
 # DS_Store
 .DS_Store
