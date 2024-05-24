@@ -1,4 +1,7 @@
+#include <Eigen/Eigenvalues>
 #include <Eigen/Sparse>
+#include <Eigen/src/Core/Matrix.h>
+#include <Eigen/src/Eigenvalues/GeneralizedEigenSolver.h>
 #include <barAssemble.hxx>
 #include <chrono>
 #include <filesystem>
@@ -7,7 +10,7 @@
 #include <model.hxx>
 #include <read_file.hxx>
 #include <string>
-#include <Eigen/Eigenvalues>
+#include <math.h>
 namespace {
 auto writeToFile(std::string const &path, std::string const &name,
                  FETheory::SMatrixXd const &mat) -> void {
@@ -44,10 +47,25 @@ int main() {
 
     // Bar Routine
     if (std::holds_alternative<FEObject::Bar>(subsystem.part_)) {
+
+      // Load Mass and Stiffness Matrices
       auto ssKandM = FETheory::getBarSubsystemKandM(feSystem, subsystem);
-  
-      writeToFile(path.parent_path().string(), "stifMatrix", ssKandM.first);
-      writeToFile(path.parent_path().string(), "massMatrix", ssKandM.second);
+
+      // Modal Solution (full)
+      auto eigen = Eigen::GeneralizedEigenSolver<Eigen::MatrixXd>{};
+      eigen.compute(Eigen::MatrixXd{ssKandM.first}, Eigen::MatrixXd{ssKandM.second});
+      auto values = eigen.eigenvalues();
+      auto naturalFs = Eigen::VectorXd{values.cwiseSqrt().eval().real()};
+
+      // Check Eigenvalues
+      std::sort(naturalFs.begin(),naturalFs.end());
+      for (auto const& fn : naturalFs){
+        std::cout << fn / (2*M_PI)<< '\n';
+      }
+
+      // Export Mass and Stiffness matrices
+      //writeToFile(path.parent_path().string(), "stifMatrix", ssKandM.first);
+      //writeToFile(path.parent_path().string(), "massMatrix", ssKandM.second);
     }
   }
 

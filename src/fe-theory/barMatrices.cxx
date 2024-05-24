@@ -18,14 +18,13 @@ auto cosineSimilarity(Vector3d const &vec1, Vector3d const &vec2) -> double_t {
 }
 
 auto elementRotation(Vector3d const &n1xyz, Vector3d const &n2xyz,
-                     Vector3d const &n3xyz, Vector3d const &n4xyz)
-    -> Matrix33d {
+                     Vector3d const &orientation) -> Matrix33d {
   auto xDir = (n2xyz - n1xyz).eval();
   xDir /= xDir.norm();
-  auto yDir = (n4xyz - n1xyz).eval();
-  yDir /= yDir.norm();
-  auto zDir = xDir.cross(yDir).eval();
+  auto zDir = orientation.cross(xDir).eval();
   zDir /= zDir.norm();
+  auto yDir = xDir.cross(zDir).eval();
+  yDir /= yDir.norm();
 
   auto lDir = Matrix33d::Zero().eval();
   lDir.row(0) = xDir;
@@ -88,9 +87,12 @@ auto getBar3DLocalKandM(
   auto const &node2 = nodes.at(ele2.nodesId_.at(1));
   auto const n2xyz = Vector3d{node2.xCoord_, node2.yCoord_, node2.zCoord_};
 
+  //
+
   // Rotation Matrix to Global Coordinates
-  auto rotT33 = Matrix33d::Identity().eval();
-  // elementRotation(n1xyz, n2xyz, n3xyz, n4xyz);
+  auto const orientation =
+      Vector3d{ele2.direction_[0], ele2.direction_[1], ele2.direction_[2]};
+  auto rotT33 = elementRotation(n1xyz, n2xyz, orientation);
   auto rotT66 = Matrix66d::Zero().eval();
   rotT66.topLeftCorner(3, 3) = rotT33;
   rotT66.bottomRightCorner(3, 3) = rotT33;

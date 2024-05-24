@@ -64,13 +64,13 @@ auto barCombinedMassM(double_t a, double_t A, double_t rho, double_t Ix)
 }
 
 auto barCombinedStiffnessK(double_t a, double_t E, double_t v, double_t A,
-                           double_t Iy, double_t Iz, double_t J)
+                           double_t I1, double_t I2, double_t J)
     -> Matrix1212d {
 
   auto const a2 = std::pow(a, 2.0);
   auto const a3 = std::pow(a, 3.0);
-  auto const ry2 = Iy / A;
-  auto const rz2 = Iz / A;
+  auto const rz2 = I1 / A;
+  auto const ry2 = I2 / A;
   auto const rj2 = J / A;
 
   auto k11 = Matrix66d::Zero().eval();
