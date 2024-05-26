@@ -57,7 +57,7 @@ auto getBarSectionParameters(FEModel::System const &system,
     auto const &isoMat = std::get<FEObject::IsotropicMaterial>(mat);
     properties.density = isoMat.rho_;
     properties.youngE = isoMat.E1_;
-    properties.poissonNu = isoMat.nu12_;
+    properties.shearG = isoMat.G12_;
   }
 
   // Geometry
@@ -65,10 +65,10 @@ auto getBarSectionParameters(FEModel::System const &system,
   // X - along length
   // Y and Z - cross-section
   properties.sectionA = bar.crossArea_;
-  properties.momentIz = bar.momentInertia1;
-  properties.momentIy = bar.momentInertia2;
-  properties.momentIx = bar.torsionalConst;
-  properties.torsionZ = bar.torsionalConst;
+  properties.momentI1 = bar.momentInertia1;
+  properties.momentI2 = bar.momentInertia2;
+  properties.momentJ = bar.torsionalConst;
+  properties.torsionK = bar.polarInertia;
 
   return properties;
 }
@@ -93,6 +93,7 @@ auto getBar3DLocalKandM(
   auto const orientation =
       Vector3d{ele2.direction_[0], ele2.direction_[1], ele2.direction_[2]};
   auto rotT33 = elementRotation(n1xyz, n2xyz, orientation);
+  auto rot33 = Matrix33d::Identity().eval();
   auto rotT66 = Matrix66d::Zero().eval();
   rotT66.topLeftCorner(3, 3) = rotT33;
   rotT66.bottomRightCorner(3, 3) = rotT33;
@@ -105,12 +106,13 @@ auto getBar3DLocalKandM(
 
   // Evaluate In-Plane Mass
   newBar.localM =
-      barCombinedMassM(lenA, barSec.sectionA, barSec.density, barSec.momentIx);
+      barTimoshenkoMassM(lenA, barSec.density, barSec.sectionA, barSec.momentI1,
+                         barSec.momentI2, barSec.momentJ);
 
   // Evaluate In-Plane Stiffness
-  newBar.localK = barCombinedStiffnessK(lenA, barSec.youngE, barSec.poissonNu,
-                                        barSec.sectionA, barSec.momentIy,
-                                        barSec.momentIz, barSec.torsionZ);
+  newBar.localK = barTimoshenkoStiffnessK(lenA, barSec.youngE, barSec.shearG,
+                                          barSec.sectionA, barSec.momentI1,
+                                          barSec.momentI2, barSec.torsionK);
 
   return newBar;
 };

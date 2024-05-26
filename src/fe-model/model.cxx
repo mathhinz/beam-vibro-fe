@@ -58,8 +58,9 @@ auto loadSystem(NastranIO::NastranObjects const &nasInputs) -> System {
   // Add Subsystems to the System
   for (auto const &[pbarId, pbar] : nasInputs.pbarMap) {
     auto subsystem = Subsystem{};
-    subsystem.part_ = FEObject::Bar{pbar.getPID(), pbar.getMID(), pbar.getA(),
-                                    pbar.getI1(),  pbar.getI2(),  pbar.getJ()};
+    subsystem.part_ =
+        FEObject::Bar{pbar.getPID(), pbar.getMID(), pbar.getA(), pbar.getI1(),
+                      pbar.getI2(),  pbar.getJ(),   pbar.getJ()};
     system.subsystems_[pbarId] = subsystem;
   }
 

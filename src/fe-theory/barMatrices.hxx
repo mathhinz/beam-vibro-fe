@@ -20,12 +20,12 @@ using Vector12u64 = Eigen::Vector<uint64_t, 12>;
 struct BarSectionParameters {
   double_t density = 0.0;
   double_t youngE = 0.0;
-  double_t poissonNu = 0.0;
+  double_t shearG = 0.0;
   double_t sectionA = 0.0;
-  double_t momentIx = 0.0;
-  double_t momentIy = 0.0;
-  double_t momentIz = 0.0;
-  double_t torsionZ = 0.0;
+  double_t momentI1 = 0.0;
+  double_t momentI2 = 0.0;
+  double_t momentJ = 0.0;
+  double_t torsionK = 0.0;
 
   Vector12u64 dofsFlexIdx = Vector12u64{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
 };

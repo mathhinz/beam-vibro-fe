@@ -10,6 +10,7 @@ struct Bar {
   double_t crossArea_ = 0.0;
   double_t momentInertia1 = 0.0;
   double_t momentInertia2 = 0.0;
+  double_t polarInertia = 0.0;
   double_t torsionalConst = 0.0;
 };
 
